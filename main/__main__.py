@@ -38,7 +38,7 @@ async def start(bot, message):
                     InlineKeyboardButton(text="Help", callback_data="help_menu"),
                     InlineKeyboardButton(
                         text="Repo",
-                        url="https://github.com/TechShreyash/TechZ-Logo-Maker-Bot",
+                        url="https://github.com/systemx5/System-Logo-Maker-Bot",
                     ),
                 ]
             ]
@@ -76,7 +76,7 @@ async def logo(bot, message):
 
         if "error" in logo:
             return await x.edit(
-                f"`❌ Something Went Wrong...`\n\nReport This Error In @TechZBots_Support \n\n`{logo}`"
+                f"`❌ Something Went Wrong...`\n\nReport This Error In @SystemBots_Support \n\n`{logo}`"
             )
 
         await x.edit("`🔄 Done Generated... Now Sending You`")
@@ -103,7 +103,7 @@ async def logo(bot, message):
         except:
             pass
         return await message.reply_text(
-            "`❌ Something Went Wrong...`\n\nReport This Error In @TechZBots_Support"
+            "`❌ Something Went Wrong...`\n\nReport This Error In @SystemBots_Support"
         )
 
 
@@ -127,7 +127,7 @@ async def logo(bot, message):
 
         if "error" in logo:
             return await x.edit(
-                f"`❌ Something Went Wrong...`\n\nReport This Error In @TechZBots_Support \n\n`{logo}`"
+                f"`❌ Something Went Wrong...`\n\nReport This Error In @SystemBots_Support \n\n`{logo}`"
             )
 
         await x.edit("`🔄 Done Generated... Now Sending You`")
@@ -154,7 +154,7 @@ async def logo(bot, message):
         except:
             pass
         return await message.reply_text(
-            "`❌ Something Went Wrong...`\n\nReport This Error In @TechZBots_Support"
+            "`❌ Something Went Wrong...`\n\nReport This Error In @SystemBots_Support"
         )
 
 
@@ -170,7 +170,7 @@ async def start_menu(_, query):
                     InlineKeyboardButton(text="Help", callback_data="help_menu"),
                     InlineKeyboardButton(
                         text="Repo",
-                        url="https://github.com/TechShreyash/TechZ-Logo-Maker-Bot",
+                        url="https://github.com/systemx5/System-Logo-Maker-Bot",
                     ),
                 ]
             ]
@@ -205,7 +205,7 @@ async def logo_doc(_, query):
     except Exception as e:
         try:
             return await x.edit(
-                f"`❌ Something Went Wrong...`\n\nReport This Error In @TechZBots_Support \n\n`{str(e)}`"
+                f"`❌ Something Went Wrong...`\n\nReport This Error In @SystemBots_Support \n\n`{str(e)}`"
             )
         except:
             return
@@ -216,7 +216,7 @@ async def logo_doc(_, query):
 if __name__ == "__main__":
     print("==================================")
     print("[INFO]: LOGO MAKER BOT STARTED BOT SUCCESSFULLY")
-    print("==========JOIN @TECHZBOTS=========")
+    print("==========JOIN @SYSTEMLOGO_BOT=========")
 
     idle()
     print("[INFO]: LOGO MAKER BOT STOPPED")
